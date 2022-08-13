@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const fetchApi = async () => {
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=a6cbb38c0b717d146e22394a96a1f3f6`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=a6cbb38c0b717d146e22394a96a1f3f6`;
       const response = await fetch(url);
       const resJson = await response.json();
       setCity(resJson.main);
@@ -41,9 +41,9 @@ function App() {
               <i className="fa-solid fa-location-pin"></i> {search}
             </h2>
             {/* <h1 className="temp">50</h1> */}
-            <h1 className="temp">{city.temp}</h1>
+            <h1 className="temp">{city.temp} °C</h1>
 
-            <h3 className="tempmin_max">Min {city.temp_min} : max {city.temp_max}</h3>
+            <h3 className="tempmin_max">Min {city.temp_min} °C: max {city.temp_max} °C</h3>
           </div>
           <div className="wave -one"></div>
           <div className="wave -two"></div>
