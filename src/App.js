@@ -38,7 +38,7 @@ function App() {
         <div>
           <div className="info">
             <h2 className="location">
-              <i className="fa-solid fa-location-pin"></i> {search}
+              <i className="fa-solid fa-location-dot"></i> {search}
             </h2>
             {/* <h1 className="temp">50</h1> */}
             <h1 className="temp">{city.temp} °C</h1>
