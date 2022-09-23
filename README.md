@@ -2,7 +2,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <img src="src/assets/images/weatherapp-img-almora" alt="error 404"/>
-![img desc](./src/assets/images/weatherapp-img-almora.png)
+![img](./src/assets/images/weatherapp-img-almora.png)
 
 ## Available Scripts
 
