@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
+# Wether-app created with the help of open weather api and Reactjs
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<img src="../src/assets/images/weatherapp-img-almora" alt="error 404"/>
 
 ## Available Scripts
 
