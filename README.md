@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <img src="src/assets/images/weatherapp-img-almora" alt="error 404"/>
 [img](./src/assets/images/weatherapp-img-almora.png)
-
+![img](src/assets/images/weatherapp-img-dehradun.png)
 ## Available Scripts
 
 In the project directory, you can run:
